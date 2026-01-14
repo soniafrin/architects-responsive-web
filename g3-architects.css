@@ -11,11 +11,12 @@
 }
 
 /* general width style */
-header> *{
+header > *{
     width: 75% ;
     max-width: 1920px;
     margin:0 auto;
 }
+
 
 /* shared font style */
 .font-45px-style{
@@ -36,7 +37,7 @@ header> *{
 }
 /* shared button style */
 .hbtn{
-    margin-top: 30px;
+    margin-top: 32px;
 }
 .btn{
     background-color: #FF900E;
@@ -94,11 +95,54 @@ nav ul li a{
     margin-bottom: 45px;
 }
 
+/* our features */
+#our-features{
+    
+}
+.feature-body{
+    display: flex;
+    align-items: center; 
+    width: 68% ;
+    max-width: 1920px;
+    margin:0 auto;
+    
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 24px;
+    margin-top: 85px;
+}
+.team-img img{
+    max-width: 100%;
+}
+
+.quick-feture-list{
+    margin-left: 73px;
+    max-width: 537px;
+    
+}
+
+.quick-feture-list .font-45px-style{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
-    nav{
+    nav, 
+    .feature-body{
         flex-direction: column;
     }
-    nav .font-45px-style{
+    .font-45px-style{
         font-size: 2.6rem;
     }
     nav ul {
@@ -109,4 +153,15 @@ nav ul li a{
     font-size: 3.2rem;
 }
 
+/* our quick features */
+
+.team-img{
+    grid-template: 1fr/1fr;
+}
+.quick-feture-list {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 100%;
+    text-align: center;
+}
 }
