@@ -239,4 +239,12 @@ nav ul li a{
     max-width: 100%;
     text-align: center;
 }
+
+/* love-features */
+.love-features-body {
+    flex-direction: column;
+}
+.feature-details {
+    text-align: center;
+}
 }
