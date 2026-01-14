@@ -1,6 +1,91 @@
+/* full-body shared styles */
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightblue;
+
+}
+/* general width style */
+header> *{
+    width: 75% ;
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+/* body font styles */
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* shared font style */
+.font-45px-style{
+    font-size: 2.80rem;
+    font-weight: bold;
+    color: #131313;
+}
+/* shared paragraph style */
+.all-para-style{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+}
+.font-20px-style{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #727272;
+}
+/* shared button style */
+
+.btn{
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* main body styles */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* hero */
+.hero{
+    text-align: center;
+    margin-top: 102px;
+}
+.hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #131313;
+}
+.hero p{
+    margin: 32px 0;
+}
+
+
+/* hero-img */
+.hero-img img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
 }
