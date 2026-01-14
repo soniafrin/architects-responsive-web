@@ -32,7 +32,7 @@ header > *{
 }
 .font-20px-style{
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #727272;
 }
 /* shared button style */
@@ -134,6 +134,75 @@ nav ul li a{
 .feat-color{
     color: #FF900E;
 }
+
+/* love-features */
+.love-features{
+    /* border: 1px solid blue; */
+}
+
+.love-features-body{
+    width: 75% ;
+    max-width: 1920px;
+    margin:0 auto;
+    display: flex;
+    margin-top: 130px;
+    gap: 54px;
+    /* border: 1px solid red; */
+}
+.feature-details{
+    max-width: 590px;
+    /* border: 1px solid rebeccapurple;  */
+}
+.feature-heading h2{
+    border-left: 2px solid #FF900E;
+    padding-left: 21px;
+    box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+.love-feature-card{
+    margin-top: 30px;
+}
+.love-feature-card .card{
+    margin-bottom: 20px;
+}
+.love-feature-card h4{
+    color: #131313;
+    margin-bottom: 10px;
+}
+.love-feature-card p{
+    margin-bottom: 30px;
+    max-width: 514px;
+}
+.love-feature-img{
+    max-width: 900px;
+    /* border: 1px solid yellow; */
+}
+.love-feature-img img{
+    max-width: 100%;
+}
+.bottom-btn{
+    background-color: #FF900E;
+    max-width: 342px;
+    padding: 46px 42px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    right: 100px;
+}
+.bottom-btn h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+    color: #ffffff;
+}
+.bottom-btn p{
+   font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ffffff;
+}
+
 
 
 
