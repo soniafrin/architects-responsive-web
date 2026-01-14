@@ -69,6 +69,7 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: #424242;
+    font-weight: 500;
 }
 
 /* hero */
@@ -120,14 +121,19 @@ nav ul li a{
 
 .quick-feture-list{
     margin-left: 73px;
-    max-width: 537px;
-    
+    max-width: 537px;  
 }
 
 .quick-feture-list .font-45px-style{
     margin-bottom: 24px;
 }
-
+.quick-color{
+    color: #727272;
+    font-weight: 500;
+}
+.feat-color{
+    color: #FF900E;
+}
 
 
 
